@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F404CB1067D5505472C7F4 /* TeamViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEE1394DF00F4081C96F35 /* TeamViews.swift */; };
+		16272FAC9916D0A977B59D52 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3FC787A0DC136B1479AEB /* AppTheme.swift */; };
+		20EFE2D08CC28547765B1A09 /* ForgeHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED037BECD3E74BDC8D6CBE /* ForgeHubApp.swift */; };
+		217E884A563CCDDBBBEC37FA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0474FD51C067700050ADB /* Models.swift */; };
+		278BEEEA1821D34EDB5FB63C /* CampaignViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96C2F728DB09D5693FF17 /* CampaignViews.swift */; };
+		2C7189C05DD6F5DF655C1C1A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4AA17175834A72B4212E0 /* SplashView.swift */; };
+		3B8BFF6AAE4B0C00FDED5F85 /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5071546BBDE15B3959FE06 /* AuthViews.swift */; };
+		4E6BAA8CCD73654A3BC9E732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA70B98279D510BA556A49C /* Assets.xcassets */; };
+		5C7646B67E61B0B5FEC40EA6 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0DC864501D00334559CF8B /* SharedComponents.swift */; };
+		69663DF62B1767439A1D186A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE65C2F60C0603634196C0B5 /* MainTabView.swift */; };
+		887D5233E90F9DD0B9B0C973 /* AdoptionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02996E1F17BE01C14B6A1B48 /* AdoptionViews.swift */; };
+		9F58C24B77FB8ADABC682A9F /* IntegrationsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EC8503465586FAAC9B1138 /* IntegrationsViews.swift */; };
+		BDBF7F82359BE55E3443D13A /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475EA4E263883F7DC8E29D87 /* OnboardingViews.swift */; };
+		CBB9C9415587D9A0343D8A45 /* SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC5F2F3D1526052CF133C7 /* SettingsViews.swift */; };
+		CF263CA40666FF27DD270EDE /* PullRequestViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4903F996E7D55C53DBC8860 /* PullRequestViews.swift */; };
+		D50A134CCB3506DF31F4EB08 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59239549DA68160163CA666E /* SampleData.swift */; };
+		DC40772DFB9C7581BB70AD4B /* BillingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9871E49AB4BBBAEC63105B8 /* BillingViews.swift */; };
+		DC986B72526AF7B73E70180F /* SearchAndNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACEE0F8E2FA46E0955CD551 /* SearchAndNotifications.swift */; };
+		E60A0FF74025E6470525F431 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9521DC6F84144A2EC07AD /* AppRoute.swift */; };
+		E8658CAFAFC414FF76293374 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD297B5FB008670555FB6C /* HomeView.swift */; };
+		EA5B85C99AEB519C73275BEB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EDCFE52DB046CF002730D /* WelcomeView.swift */; };
+		EF1A0B89C497C4FD0EEFC2FD /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107BF8A17CC124AFD78CA29 /* AppSession.swift */; };
+		EF204453D0EA6108004256CF /* RepositoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F2F1C7D16F82E77A7E24E /* RepositoryViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01FD297B5FB008670555FB6C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02996E1F17BE01C14B6A1B48 /* AdoptionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptionViews.swift; sourceTree = "<group>"; };
+		13F9521DC6F84144A2EC07AD /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		19CEE1394DF00F4081C96F35 /* TeamViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViews.swift; sourceTree = "<group>"; };
+		20EC8503465586FAAC9B1138 /* IntegrationsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsViews.swift; sourceTree = "<group>"; };
+		3107BF8A17CC124AFD78CA29 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		475EA4E263883F7DC8E29D87 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
+		59239549DA68160163CA666E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		5C0DC864501D00334559CF8B /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		628F2F1C7D16F82E77A7E24E /* RepositoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViews.swift; sourceTree = "<group>"; };
+		69C0474FD51C067700050ADB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		87A3FC787A0DC136B1479AEB /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		88E4AA17175834A72B4212E0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		88FC5F2F3D1526052CF133C7 /* SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViews.swift; sourceTree = "<group>"; };
+		97ED037BECD3E74BDC8D6CBE /* ForgeHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeHubApp.swift; sourceTree = "<group>"; };
+		AC5071546BBDE15B3959FE06 /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
+		ACA96C2F728DB09D5693FF17 /* CampaignViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViews.swift; sourceTree = "<group>"; };
+		AE65C2F60C0603634196C0B5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B3BE761089F09293584E7901 /* ForgeHub.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ForgeHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4903F996E7D55C53DBC8860 /* PullRequestViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestViews.swift; sourceTree = "<group>"; };
+		B9871E49AB4BBBAEC63105B8 /* BillingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingViews.swift; sourceTree = "<group>"; };
+		BEA70B98279D510BA556A49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CACEE0F8E2FA46E0955CD551 /* SearchAndNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndNotifications.swift; sourceTree = "<group>"; };
+		CC9025387BC1310BAA378D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD2EDCFE52DB046CF002730D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1DAA80A4A65AE1E4BCB29A92 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				475EA4E263883F7DC8E29D87 /* OnboardingViews.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1F8274CC651C5C56078E439D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				889C1A1E2FB92A8041B6756E /* Adoption */,
+				816D49BAB5E7F565B66B8A05 /* Auth */,
+				2448CA607CD28CA106577D09 /* Billing */,
+				D0A4BEB6DF6BC4BB07843EE7 /* Campaigns */,
+				B8DCC6DDACA8A6A2552D47AF /* Home */,
+				45724710D1C7F19A189E57CB /* Integrations */,
+				1DAA80A4A65AE1E4BCB29A92 /* Onboarding */,
+				F73346FB2003D83C87282D4D /* PullRequests */,
+				A86626016334BA6A89128EDF /* Repositories */,
+				A46AF900C20333CD411D9B07 /* Search */,
+				686CDD239BBFABB47F05CBA5 /* Settings */,
+				FA6F2CDB124E95B28A8D4F66 /* Splash */,
+				2DEDB9970356F09A3FF06544 /* Team */,
+				AE8F0EED654E150582530720 /* Welcome */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2448CA607CD28CA106577D09 /* Billing */ = {
+			isa = PBXGroup;
+			children = (
+				B9871E49AB4BBBAEC63105B8 /* BillingViews.swift */,
+			);
+			path = Billing;
+			sourceTree = "<group>";
+		};
+		2DEDB9970356F09A3FF06544 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				19CEE1394DF00F4081C96F35 /* TeamViews.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		3BA6AAEAC4C68494E647C3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE761089F09293584E7901 /* ForgeHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45724710D1C7F19A189E57CB /* Integrations */ = {
+			isa = PBXGroup;
+			children = (
+				20EC8503465586FAAC9B1138 /* IntegrationsViews.swift */,
+			);
+			path = Integrations;
+			sourceTree = "<group>";
+		};
+		686CDD239BBFABB47F05CBA5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				88FC5F2F3D1526052CF133C7 /* SettingsViews.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6DC8883E69920CA32C574730 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3107BF8A17CC124AFD78CA29 /* AppSession.swift */,
+				69C0474FD51C067700050ADB /* Models.swift */,
+				59239549DA68160163CA666E /* SampleData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		816D49BAB5E7F565B66B8A05 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AC5071546BBDE15B3959FE06 /* AuthViews.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		889C1A1E2FB92A8041B6756E /* Adoption */ = {
+			isa = PBXGroup;
+			children = (
+				02996E1F17BE01C14B6A1B48 /* AdoptionViews.swift */,
+			);
+			path = Adoption;
+			sourceTree = "<group>";
+		};
+		A46AF900C20333CD411D9B07 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CACEE0F8E2FA46E0955CD551 /* SearchAndNotifications.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A49DCD823B96FA673ABCED77 = {
+			isa = PBXGroup;
+			children = (
+				F883DCC89057BFCC9CAAB21E /* ForgeHub */,
+				3BA6AAEAC4C68494E647C3FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A86626016334BA6A89128EDF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				628F2F1C7D16F82E77A7E24E /* RepositoryViews.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AE8F0EED654E150582530720 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				CD2EDCFE52DB046CF002730D /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		B8DCC6DDACA8A6A2552D47AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				01FD297B5FB008670555FB6C /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0A4BEB6DF6BC4BB07843EE7 /* Campaigns */ = {
+			isa = PBXGroup;
+			children = (
+				ACA96C2F728DB09D5693FF17 /* CampaignViews.swift */,
+			);
+			path = Campaigns;
+			sourceTree = "<group>";
+		};
+		D9A658A222B9C44DB7D7BCDF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5C0DC864501D00334559CF8B /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC213FA467B89BB2678B0C37 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				13F9521DC6F84144A2EC07AD /* AppRoute.swift */,
+				AE65C2F60C0603634196C0B5 /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F73346FB2003D83C87282D4D /* PullRequests */ = {
+			isa = PBXGroup;
+			children = (
+				B4903F996E7D55C53DBC8860 /* PullRequestViews.swift */,
+			);
+			path = PullRequests;
+			sourceTree = "<group>";
+		};
+		F883DCC89057BFCC9CAAB21E /* ForgeHub */ = {
+			isa = PBXGroup;
+			children = (
+				BEA70B98279D510BA556A49C /* Assets.xcassets */,
+				97ED037BECD3E74BDC8D6CBE /* ForgeHubApp.swift */,
+				CC9025387BC1310BAA378D10 /* Info.plist */,
+				D9A658A222B9C44DB7D7BCDF /* Components */,
+				1F8274CC651C5C56078E439D /* Features */,
+				6DC8883E69920CA32C574730 /* Models */,
+				EC213FA467B89BB2678B0C37 /* Navigation */,
+				FCE8DA7F8066533B1469E346 /* Theme */,
+			);
+			path = ForgeHub;
+			sourceTree = "<group>";
+		};
+		FA6F2CDB124E95B28A8D4F66 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				88E4AA17175834A72B4212E0 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		FCE8DA7F8066533B1469E346 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				87A3FC787A0DC136B1479AEB /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF95EDE824DEC1329B6F16B /* ForgeHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BCA60F8A87C988180ACE72 /* Build configuration list for PBXNativeTarget "ForgeHub" */;
+			buildPhases = (
+				8DF05F8D129B10024972DF7B /* Sources */,
+				322BCCF0D34F587A638226A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgeHub;
+			packageProductDependencies = (
+			);
+			productName = ForgeHub;
+			productReference = B3BE761089F09293584E7901 /* ForgeHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAC61AD9F5C98CDA81BAC0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 43C0EAF8B08C5399CDC8D30A /* Build configuration list for PBXProject "ForgeHub" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A49DCD823B96FA673ABCED77;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3BA6AAEAC4C68494E647C3FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF95EDE824DEC1329B6F16B /* ForgeHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322BCCF0D34F587A638226A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6BAA8CCD73654A3BC9E732 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF05F8D129B10024972DF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887D5233E90F9DD0B9B0C973 /* AdoptionViews.swift in Sources */,
+				E60A0FF74025E6470525F431 /* AppRoute.swift in Sources */,
+				EF1A0B89C497C4FD0EEFC2FD /* AppSession.swift in Sources */,
+				16272FAC9916D0A977B59D52 /* AppTheme.swift in Sources */,
+				3B8BFF6AAE4B0C00FDED5F85 /* AuthViews.swift in Sources */,
+				DC40772DFB9C7581BB70AD4B /* BillingViews.swift in Sources */,
+				278BEEEA1821D34EDB5FB63C /* CampaignViews.swift in Sources */,
+				20EFE2D08CC28547765B1A09 /* ForgeHubApp.swift in Sources */,
+				E8658CAFAFC414FF76293374 /* HomeView.swift in Sources */,
+				9F58C24B77FB8ADABC682A9F /* IntegrationsViews.swift in Sources */,
+				69663DF62B1767439A1D186A /* MainTabView.swift in Sources */,
+				217E884A563CCDDBBBEC37FA /* Models.swift in Sources */,
+				BDBF7F82359BE55E3443D13A /* OnboardingViews.swift in Sources */,
+				CF263CA40666FF27DD270EDE /* PullRequestViews.swift in Sources */,
+				EF204453D0EA6108004256CF /* RepositoryViews.swift in Sources */,
+				D50A134CCB3506DF31F4EB08 /* SampleData.swift in Sources */,
+				DC986B72526AF7B73E70180F /* SearchAndNotifications.swift in Sources */,
+				CBB9C9415587D9A0343D8A45 /* SettingsViews.swift in Sources */,
+				5C7646B67E61B0B5FEC40EA6 /* SharedComponents.swift in Sources */,
+				2C7189C05DD6F5DF655C1C1A /* SplashView.swift in Sources */,
+				05F404CB1067D5505472C7F4 /* TeamViews.swift in Sources */,
+				EA5B85C99AEB519C73275BEB /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19AB046BB1DDA43BB5D58BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForgeHub/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_CFBundleDisplayName = ForgeHub;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forgehub.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7301701007026A515B296B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_SDK = iphoneos;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		850A401A518734CFBF7F7F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForgeHub/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_CFBundleDisplayName = ForgeHub;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forgehub.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B17DA2CEE3FDDC85E516453B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_SDK = iphoneos;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C0EAF8B08C5399CDC8D30A /* Build configuration list for PBXProject "ForgeHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17DA2CEE3FDDC85E516453B /* Debug */,
+				7301701007026A515B296B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7BCA60F8A87C988180ACE72 /* Build configuration list for PBXNativeTarget "ForgeHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850A401A518734CFBF7F7F86 /* Debug */,
+				19AB046BB1DDA43BB5D58BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAC61AD9F5C98CDA81BAC0C /* Project object */;
+}
